@@ -1,0 +1,22 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "region": {
+      "home": {
+        "title": "Regions",
+        "createLabel": "Egy új Region létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Regiont",
+        "notFound": "No Region found"
+      },
+      "created": "Egy új Region lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Region módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Region törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Regiont {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Region"
+      },
+      "regionName": "Region Name"
+    }
+  }
+}

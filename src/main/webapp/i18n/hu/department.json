@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "createLabel": "Egy új Department létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Departmentt",
+        "notFound": "No Department found"
+      },
+      "created": "Egy új Department lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Department módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Department törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Departmentt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

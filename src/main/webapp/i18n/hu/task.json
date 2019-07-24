@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "Egy új Task létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Taskt",
+        "notFound": "No Task found"
+      },
+      "created": "Egy új Task lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Task módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Task törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Taskt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}
