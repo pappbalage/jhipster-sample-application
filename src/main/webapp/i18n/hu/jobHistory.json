@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "jobHistory": {
+      "home": {
+        "title": "JobHistories",
+        "createLabel": "Egy új Job History létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Job Historyt",
+        "notFound": "No Job History found"
+      },
+      "created": "Egy új Job History lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Job History módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Job History törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Job Historyt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

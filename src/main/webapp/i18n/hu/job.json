@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "createLabel": "Egy új Job létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Jobt",
+        "notFound": "No Job found"
+      },
+      "created": "Egy új Job lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Job módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Job törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Jobt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "employee": "Employee",
+      "task": "Task"
+    }
+  }
+}
