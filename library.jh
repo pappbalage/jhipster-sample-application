@@ -1,0 +1,23 @@
+entity Store {
+	address String
+    city String required
+    street String
+    name String required
+    zip String required
+}
+entity Book {
+	title String required
+    ISBN String required
+    price String
+    isRented Boolean required
+    rental String
+}
+entity Author {
+	name String unique required
+}
+entity Country
+
+relationship OneToOne {
+	Author to Book
+    Country to Store
+}

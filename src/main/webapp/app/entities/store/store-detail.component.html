@@ -1,0 +1,43 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="store">
+            <h2><span jhiTranslate="jhipsterSampleApplicationApp.store.detail.title">Store</span> {{store.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterSampleApplicationApp.store.address">Address</span></dt>
+                <dd>
+                    <span>{{store.address}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterSampleApplicationApp.store.city">City</span></dt>
+                <dd>
+                    <span>{{store.city}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterSampleApplicationApp.store.street">Street</span></dt>
+                <dd>
+                    <span>{{store.street}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterSampleApplicationApp.store.name">Name</span></dt>
+                <dd>
+                    <span>{{store.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterSampleApplicationApp.store.zip">Zip</span></dt>
+                <dd>
+                    <span>{{store.zip}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/store', store.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

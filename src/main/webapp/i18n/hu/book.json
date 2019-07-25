@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "book": {
+      "home": {
+        "title": "Books",
+        "createLabel": "Egy új Book létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Bookt",
+        "notFound": "No Book found"
+      },
+      "created": "Egy új Book lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Book módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Book törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Bookt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "title": "Title",
+      "iSBN": "I SBN",
+      "price": "Price",
+      "isRented": "Is Rented",
+      "rental": "Rental",
+      "author": "Author"
+    }
+  }
+}
