@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "store": {
+      "home": {
+        "title": "Stores",
+        "createLabel": "Egy új Store létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Storet",
+        "notFound": "No Store found"
+      },
+      "created": "Egy új Store lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Store módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Store törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Storet {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Store"
+      },
+      "address": "Address",
+      "city": "City",
+      "street": "Street",
+      "name": "Name",
+      "zip": "Zip",
+      "country": "Country"
+    }
+  }
+}

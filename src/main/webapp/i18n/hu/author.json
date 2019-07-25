@@ -1,0 +1,23 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "author": {
+      "home": {
+        "title": "Authors",
+        "createLabel": "Egy új Author létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Authort",
+        "notFound": "No Author found"
+      },
+      "created": "Egy új Author lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Author módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Author törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Authort {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Author"
+      },
+      "name": "Name",
+      "book": "Book"
+    }
+  }
+}
